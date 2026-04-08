@@ -1,0 +1,18 @@
+/* Comentários em Css */
+/*
+        Seletores css 
+        Seletor de classe -> .
+        Seletor de Id -> #
+        Seletor de elemento -> Tag html
+
+*/
+body{
+background-color: white; /* Cor de fundo */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px; /* Tamanho da Fonte */
+margin: 0px; /* espaçamento externo ao box */
+padding: 0px;/* espaçamento interno ao box */
+text-align: center;
+
+
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | Aula 03</title>
+    <style>
+        .my-text {
+        color: white
+        }
+    </style>
+    <style>
+        #header {
+        background-color: red;
+        height: 130px;
+
+        }
+        #main{
+        background-color:#de35b7;
+        height: 350px;
+        }
+        #aside {
+        background-color: blue;
+        height: 100%;
+        width: 30%;
+        float: left
+        }
+        #content {
+        background-color: green;
+        height: 100%;
+        width: 60%;
+        float: right;
+        }
+        #footer{
+        background-color: gray;
+        height: 30px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <!-- DIV: Divisão de conteúdo (Vermelho) -->
+      <h1 class="my-text">Conteúdo do cabeçalho</h1>
+    </div>
+ 
+
+
+    <div id="main">
+      <!-- DIV: Divisão de conteúdo (Rosa) -->
+      <div
+      id="aside"
+      >
+        <!-- DIV: Divisão de conteúdo (Azul) -->
+        <h2 class="my-text">Conteúdo Barra Lateral</h2>
+      </div>
+      <div
+      id="content"
+      >
+        <!-- DIV: Divisão de conteúdo (Verde) -->
+        <h2 class="my-text">Conteúdo Principal</h2>
+      </div>
+    </div>
+
+
+
+    <div id="footer">
+      <!-- DIV: Divisão de conteúdo (Cinza) -->
+      <h2 class="my-text">Conteúdo do rodapé</h2>
+    </div>
+  </body>
+</html>
