@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contato</title>
+</head>
+<body>
+    <h3>Formulario basico</h3>
+    <form method="get" action="contanto.html">
+        <label>Nome</label>
+        <input type="text" placeholder="Digite seu nome" />
+
+        <input type="submit" value="enviar"> <!-- botao de envio-->
+
+    </form>
+
+    <hr />
+
+    <h3>Formulario de cadastro</h3>
+    <form method="get" action="#">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <lable for="nomeCompleto">Nome Completo</lable>
+            <input type="text" name="nomeCompleto" placeholder="Digite seu nome completo">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu email" />
+            <br />
+            <label for="cpf">CPF</label>
+            <input type="number" name="cpf" placeholder="Digite seu cpf" />
+            <br />
+            
+
+            
+        </fieldset>
+        <fieldset>
+             <label for="dataNascimento">Nascimento</label>
+            <input type="date" name="data" placeholder="dataNascimento" />
+            <br />
+
+            <label for="dataCadastro">Cadastro</label>
+            <input type="datetime-local" name="data" placeholder="dataCadastro" />
+            <br />
+
+            <input type="checkbox" name="escolaSesi" />
+            <label for="escolaSesi">SESI</label>
+            <input type="checkbox" name="escolaSenai" />
+            <label for="escolaSenai">SENAI</label>
+            <input type="checkbox" name="escola" />
+            <label for="escola">NENHUMA</label>
+
+            <input type="checkbox" name="todas">
+            <label for="todas">Todas as Anteriores</label>
+            <br />
+
+           <input type="radio" name="sexo"/>
+           <label for="sexo">Masculino</label>
+            <input type="radio" name="sexo"/>
+           <label for="sexo">Feminino</label>
+            <input type="radio" name="sexo"/>
+           <label for="sexo">Prefiro nao informar</label>
+           <br />
+
+           <label for="curso">Escolha seu Curso</label>
+           <select name="curso">
+            <option value="0">HTML</option>
+            <option value="1">CSS</option>
+            <option value="2">JavaScript</option>
+           </select>
+
+        <br />
+        <label for="comentarios">Comentários</label>
+           <textarea name="comentarios" placeholder="Digite seu comentário..."></textarea>
+
+
+
+        </fieldset>
+        <button type="submit">Enviar dados</button>
+        <button type="reset">Limpar formulário</button>
+
+
+
+        </form>
+
+    
+    
+</body>
+</html>
