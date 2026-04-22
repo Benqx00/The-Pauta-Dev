@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+
+div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+button {
+  width: 580px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: rgb(68, 41, 64);
+  color: white;
+  text-align: center;
+}
+footer {
+text-align: center;
+color: white;
+}
+div1{
+align-items: center;
+}
+
+#links-container {
+    display: flex;         
+    flex-direction: column; 
+    align-items: center;    
+}
+
+#links-container button {
+    width: 200px;         
+}
+header img {
+    width: 200px;  
+    height: auto;
+    border-radius: 50%; 
+}
+.imagem-switch {
+    width: 100px;   
+    height: auto;  
+    display: block; 
+    margin: 0 auto; 
+}
