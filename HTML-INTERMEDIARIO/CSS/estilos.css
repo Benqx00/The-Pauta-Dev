@@ -1,16 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
-body{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100dvh;
-    width: 100%;
-    background-color: bisque;
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100dvh;
+  width: 100%;
+  background-color: bisque;
+}
+header {
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+  font-size: 24px;
+}
 
+/* MENU DE NAVEGAÇÃO */
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px;
+  z-index: 1000;
+  top: 0;
+  position: sticky;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: #1e90ff;
+  font-style: italic;
+  cursor: crosshair;
+}
+
+/* LEYOUT PRINCIPAL // LEIAUTE */
+
+main {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+/* LATERAL */
+aside {
+  width: 25%;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+section {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+section p {
+    font-style: italic;
+    font-style: oblique;
 
 }
