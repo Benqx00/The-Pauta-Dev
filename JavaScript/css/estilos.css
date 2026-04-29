@@ -1,0 +1,124 @@
+/* MODELO PADRÃO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #f4f6f9;
+    text-align: center;
+    padding: 24px;
+}
+
+h1, h2, h3, p{
+    color: #111827;
+    padding: 8px;
+    text-align: center;
+    /* margin: 10px 0; */
+}
+
+button {
+  /* background-color: #2563eb; */
+  color: white;
+  padding: 10px;
+  width: 150px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  margin-top: 10px;
+}
+
+button:hover {
+  /* background-color: #1d4ed8; */
+  transform: scale(1.02);
+}
+#btn-mais{
+    background-color: green;
+    width: 150px;
+}
+#btn-somar{
+    background-color: green;
+    width: 100px;
+}
+#btn-subtrair{
+    background-color: red;
+    width: 100px;
+}
+#btn-dividir{
+    background-color: orange;
+    width: 100px;
+}
+#btn-multiplicar{
+    background-color: blue;
+    width: 100px;
+}
+
+#btn-menos{
+    background-color: red;
+}
+#btn-zerar{
+    background-color: blue;
+}
+
+/* Inputs text e number com mesmo visual */
+input[type="text"],
+input[type="number"] {
+    width: 80%;
+    padding: 10px 12px;
+    margin-top: 8px;
+
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+    font-size: 16px;
+    outline: none;
+}
+
+.exercicio{
+    background-color: #ccc;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centraliza conteúdo */
+    justify-content: center;
+}
+
+#contador{
+    font-size: 40px;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#color02 {
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+#colorpreview{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
